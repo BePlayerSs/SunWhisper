@@ -3,64 +3,211 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SunWhisper</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b0d12;
-      color: #f5f5f5;
-      text-align: center;
-    }
-
-    .wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 18px;
-      color: #cfcfcf;
-      line-height: 1.6;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 14px 24px;
-      background: #7a4ea6;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-    }
-
-    .card {
-      margin-top: 40px;
-      padding: 25px;
-      background: #151922;
-      border-radius: 16px;
-    }
-  </style>
+  <meta name="description" content="SunWhisper: pagina temporal con informacion de VIPs, kits, beneficios y reclamos mensuales." />
+  <meta name="theme-color" content="#08090d" />
+  <title>SunWhisper | VIPs y Beneficios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="wrap">
-    <h1>SunWhisper</h1>
-    <p>Bienvenido a la página temporal del servidor.</p>
-    <p>Aquí pronto encontrarás información sobre VIPs, kits, beneficios, comandos y contenido especial.</p>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand-mark">
+        <span class="brand-mark__crest"></span>
+        <div>
+          <p class="eyebrow">SunWhisper</p>
+          <h1>VIPs y beneficios</h1>
+        </div>
+      </div>
 
-    <a class="btn" href="#">Entrar al Discord</a>
+      <nav class="site-nav">
+        <a href="#rangos">Rangos</a>
+        <a href="#detalle-vip">Detalle</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
 
-    <div class="card">
-      <h2>Próximamente</h2>
-      <p>Ranks VIP, kits exclusivos, dinero, ventajas, comandos y más.</p>
-    </div>
+    <main>
+      <section class="hero reveal" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Pagina temporal lista para GitHub Pages</p>
+          <h2>Una vitrina elegante para tus rangos VIP mientras la tienda termina de nacer.</h2>
+          <p class="hero-copy__lead">
+            SunWhisper ya puede tener una presencia seria y bonita en linea: rangos, kits, comandos, reclamos y toda la informacion importante en una sola pagina con estilo oscuro y toques luminosos.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" data-config-link="discordUrl" href="#">Discord pendiente</a>
+            <a class="button button-secondary" href="#rangos">Explorar rangos</a>
+          </div>
+
+          <div class="hero-status">
+            <article class="status-card glass-card">
+              <p class="status-card__label">Estado actual</p>
+              <strong>Pre lanzamiento</strong>
+              <span>La tienda sigue en construccion, pero la info VIP ya puede mostrarse.</span>
+            </article>
+            <article class="status-card glass-card">
+              <p class="status-card__label">Contenido visible</p>
+              <strong>4 rangos VIP</strong>
+              <span>Rose, Daisy, Lilium y SunFlower con reclamos y comandos clave.</span>
+            </article>
+            <article class="status-card glass-card">
+              <p class="status-card__label">Formato</p>
+              <strong>HTML + CSS + JS</strong>
+              <span>Facil de subir, editar y publicar directo en GitHub Pages.</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="preview-board glass-card">
+            <div class="preview-board__top">
+              <span>Acceso VIP</span>
+              <span>SunWhisper</span>
+            </div>
+
+            <div class="slot-grid" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="preview-board__footer">
+              <p>Espacio perfecto para luego meter previews de cofres, capturas del server o renders de kits.</p>
+              <div class="preview-tags">
+                <span>Comandos</span>
+                <span>Kits</span>
+                <span>Reclamos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="beneficios">
+        <div class="section-heading">
+          <p class="eyebrow">Que comunica esta pagina</p>
+          <h3>No es un blog. Es una landing premium con enfoque en claridad y deseo.</h3>
+          <p>
+            La estructura esta pensada para que un jugador entienda rapido que ofrece cada rango, que recibe al comprarlo y por que vale la pena esperar la tienda oficial.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card glass-card">
+            <p class="eyebrow">Escalado VIP</p>
+            <h4>Rangos que suben de nivel de forma clara</h4>
+            <p>Desde Rose hasta SunFlower, cada rango mejora capacidad, extras sociales, reclamos y prestigio.</p>
+          </article>
+          <article class="feature-card glass-card">
+            <p class="eyebrow">Reclamos visibles</p>
+            <h4>Kits unicos y cofres mensuales</h4>
+            <p>La pagina deja claro lo que es recompensa unica, lo que es beneficio mensual y lo que es acceso permanente.</p>
+          </article>
+          <article class="feature-card glass-card">
+            <p class="eyebrow">Preparada para crecer</p>
+            <h4>Hoy informativa, manana conectada con tienda</h4>
+            <p>Solo cambias links, agregas imagenes y cuando la tienda este lista la enlazas sin rehacer todo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="rangos">
+        <div class="section-heading">
+          <p class="eyebrow">Rangos destacados</p>
+          <h3>Selecciona un VIP para ver su resumen completo.</h3>
+          <p>
+            Cada tarjeta abre un panel con ventajas, comandos, extras, reclamo unico y sistema de cofres mensuales.
+          </p>
+        </div>
+
+        <div class="tier-grid" id="tier-grid" aria-label="Lista de rangos VIP"></div>
+      </section>
+
+      <section class="section section-detail reveal" id="detalle-vip">
+        <div class="section-heading">
+          <p class="eyebrow">Detalle interactivo</p>
+          <h3>Una seccion fuerte para convertir curiosidad en ganas de entrar.</h3>
+          <p>
+            Aqui puedes profundizar cada rango sin llenar el inicio con demasiado texto. La pagina abre por defecto mostrando el rango mas alto.
+          </p>
+        </div>
+
+        <div class="detail-shell glass-card" id="tier-detail"></div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Siguiente paso natural</p>
+          <h3>Solo te faltan tres cosas para publicarla con todo.</h3>
+        </div>
+
+        <div class="next-grid">
+          <article class="next-card glass-card">
+            <span>01</span>
+            <h4>Pegar tu invitacion de Discord</h4>
+            <p>El boton principal ya esta preparado. Solo cambias el enlace en un solo lugar del archivo JS.</p>
+          </article>
+          <article class="next-card glass-card">
+            <span>02</span>
+            <h4>Agregar imagenes de cofres o kits</h4>
+            <p>Puedes meter capturas reales y usar esta misma base para mostrar previews mas premium.</p>
+          </article>
+          <article class="next-card glass-card">
+            <span>03</span>
+            <h4>Subir estos archivos a tu repo</h4>
+            <p>GitHub Pages ya los puede publicar tal cual mientras tu tienda oficial se termina.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-faq reveal" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ rapido</p>
+          <h3>Lo importante para que no se sienta incompleta.</h3>
+        </div>
+
+        <div class="faq-grid">
+          <details class="faq-card glass-card" open>
+            <summary>Esta pagina ya esta lista para GitHub Pages?</summary>
+            <p>Si. Solo necesitas subir el contenido de esta carpeta al repositorio de tu pagina y GitHub Pages la publica como un sitio estatico.</p>
+          </details>
+
+          <details class="faq-card glass-card">
+            <summary>Puedo cambiar colores, textos o secciones despues?</summary>
+            <p>Si. Esta hecha con archivos sencillos para que luego podamos editar rangos, meter nuevas categorias o conectar la tienda real sin romper el estilo.</p>
+          </details>
+
+          <details class="faq-card glass-card">
+            <summary>Que falta personalizar ahorita?</summary>
+            <p>Tu enlace real de Discord, cualquier enlace de tienda cuando exista y, si quieres, imagenes o capturas de cofres para que la pagina luzca todavia mas premium.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>SunWhisper | landing temporal para rangos VIP, kits, beneficios y reclamos.</p>
+      <p class="site-footer__note">Hecha para verse bien en escritorio y celular, con una estructura facil de mantener.</p>
+    </footer>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
